@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Pal 🌿</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌱 Plant Pal</h1>
+    <p>Your smart gardening companion!</p>
+
+    <div class="plant-form">
+      <input type="text" id="plantName" placeholder="Enter plant name">
+      <select id="plantType">
+        <option value="">Select type</option>
+        <option value="succulent">🌵 Succulent</option>
+        <option value="flower">🌸 Flowering Plant</option>
+        <option value="herb">🌿 Herb</option>
+        <option value="tree">🌳 Tree</option>
+      </select>
+      <button id="addPlant">Add Plant</button>
+    </div>
+
+    <div id="plantList" class="plant-list"></div>
+  </div>
+
+  <footer>🌼 Keep growing with love and light!</footer>
+  <script src="script.js"></script>
+</body>
+</html>
